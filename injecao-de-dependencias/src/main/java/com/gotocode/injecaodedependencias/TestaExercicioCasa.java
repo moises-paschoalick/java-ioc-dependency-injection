@@ -15,6 +15,7 @@ public class TestaExercicioCasa {
         //Casa casa = new Casa(energia);
         //casa.ligarLuz();
 
+        // Injeta o tipo de energia
         testarCasa(new Gerador());
         testarCasa(new EnergiaSolar());
 
